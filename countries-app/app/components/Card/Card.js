@@ -9,6 +9,7 @@ function Card(props) {
        <Flag flag={props.flag}/>
        <Info
         name={props.name}
+        alphacode = {props.alphacode}
         population={props.population}
         region={props.region}
         capital={props.capital}
